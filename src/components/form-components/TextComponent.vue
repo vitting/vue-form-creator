@@ -1,5 +1,5 @@
 <template>
-        <EditComponent>
+        <EditComponent :show-edit="!disabled">
             <v-text-field
                 :label="props.label"
                 :type="props.type"
